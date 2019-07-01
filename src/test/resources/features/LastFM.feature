@@ -5,7 +5,7 @@ Feature: Simple tests for Last.fm website
     Then user can find his "<login>" name at the login page
     Examples:
     |login|password|
-    |daria_malakhova|test!2|
+    |daria_malakhova|testtest!2|
 
   Scenario Outline: Logout
     Given the user enter "<login>" and "<password>"
@@ -14,7 +14,7 @@ Feature: Simple tests for Last.fm website
     Then User can find "login" button
     Examples:
       |login|password|
-      |daria_malakhova|test!2|
+      |daria_malakhova|testtest!2|
 
   Scenario Outline: Track Search
     Given the user enter "<login>" and "<password>"
@@ -23,4 +23,4 @@ Feature: Simple tests for Last.fm website
     Then user find <track name> on the page
     Examples:
       |login|password|track name|
-      |daria_malakhova|test!2|Tesseract|
+      |daria_malakhova|testtest!2|Tesseract|
